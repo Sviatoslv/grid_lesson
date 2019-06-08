@@ -1,0 +1,25 @@
+.button {
+  position: relative;
+  display: inline-block;
+  padding: 12px 30px;
+
+  background-color: #333;
+  color: #fff;
+
+  font: inherit;
+  text-decoration: none;
+  
+  &:hover {
+    background-color: #0a0a0a;
+  }
+
+  &__arrow {
+    position: relative;
+    left: 6px;
+    transition: 0.5s;
+  }
+
+  &:hover &__arrow {
+    left: 14px;
+  }
+}
